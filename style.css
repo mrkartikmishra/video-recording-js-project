@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.controls {
+  color: white;
+  position: absolute;
+  bottom: 4rem;
+  left: calc(50% - 5.5rem);
+  display: flex;
+  gap: 2rem;
+}
+
+.controls__left {
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.controls__left-capture {
+  width: 3rem;
+  height: 3rem;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.controls__right {
+  width: 4rem;
+  height: 4rem;
+  background-color: greenyellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.controls__right-record {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 50%;
+}
